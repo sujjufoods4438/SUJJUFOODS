@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FAF8F1;
+    color: #1C2520;
+    font-family: 'Inter', 'Manrope', sans-serif;
+  }
+}
+
+.sujju-gradient {
+  background: linear-gradient(135deg, #174A36 0%, #0E2E22 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #C69A48 0%, #A97E33 100%);
+}

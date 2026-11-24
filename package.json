@@ -1,0 +1,23 @@
+{
+  "name": "sujju-foods-monorepo",
+  "version": "1.0.0",
+  "description": "SUJJU FOODS - Tea Powder Manufacturing, Customer Sales & Distributor Management System",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start:backend": "npm --prefix backend run start",
+    "test": "npm --prefix backend run test"
+  },
+  "keywords": ["sujju-foods", "tea", "manufacturing", "distributor-management", "mern"],
+  "author": "Sujju Software Solutions",
+  "license": "UNLICENSED"
+}
